@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Counter" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sebha" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--debug" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="count.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="count.h" />
+		<Unit filename="counter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gpio.h" />
+		<Unit filename="push_button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="push_button.h" />
+		<Unit filename="ssd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ssd.h" />
+		<Unit filename="utilities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utilities.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

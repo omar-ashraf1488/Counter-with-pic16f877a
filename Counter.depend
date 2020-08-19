@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1596480711 source:d:\projects\embedded-c\counter\counter\count.c
+	"count.h"
+	"ssd.h"
+	"push_button.h"
+
+1592731652 d:\projects\embedded-c\counter\counter\count.h
+
+1592731652 d:\projects\embedded-c\counter\counter\ssd.h
+
+1596480711 d:\projects\embedded-c\counter\counter\push_button.h
+
+1596480711 source:d:\projects\embedded-c\counter\counter\counter.c
+	<pic16f877a.h>
+	"push_button.h"
+	"count.h"
+	"ssd.h"
+
+1592730316 source:d:\projects\embedded-c\counter\counter\gpio.c
+	"gpio.h"
+	<pic16f877a.h>
+
+1592730317 d:\projects\embedded-c\counter\counter\gpio.h
+
+1596480711 source:d:\projects\embedded-c\counter\counter\push_button.c
+	"push_button.h"
+	"gpio.h"
+
+1592731652 source:d:\projects\embedded-c\counter\counter\ssd.c
+	"ssd.h"
+	"gpio.h"
+	"utilities.h"
+
+1592476972 d:\projects\embedded-c\counter\counter\utilities.h
+
+1592476972 source:d:\projects\embedded-c\counter\counter\utilities.c
+	"utilities.h"
+
